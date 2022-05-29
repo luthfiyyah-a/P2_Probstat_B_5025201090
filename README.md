@@ -3,25 +3,28 @@
 
 PRAKTIKUM 2 PROBABILITAS DAN STATISTIKA
 
-Nomor 1
-	Standar deviasi dari data selisih = 6.359395
-  ![image](https://user-images.githubusercontent.com/79054230/170882018-221bc780-ed8a-4292-87ba-b8f08dd563de.png)
+### Nomor 1
 
-	Nilai t
+a. Standar deviasi dari data selisih = 6.359395
+	
+![image](https://user-images.githubusercontent.com/79054230/170882018-221bc780-ed8a-4292-87ba-b8f08dd563de.png)
+
+b. Nilai t
   ![image](https://user-images.githubusercontent.com/79054230/170882025-56b2c286-b1f6-4198-b665-9f61c5d66c0d.png)
 
  
 
-	tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴 jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”
+c. tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴 jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”
 
 dari  perhitungan yang dilakukan, didapat p-value < 0.05 (α). Didapat pula meannya tidak sama dengan 0. Dari sini, kita dapat menolak H0 yang menyatakan bahwa : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”. Dan kita dapat menyimpulkan bahwa terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴.
 
-Nomor 2
+
+### Nomor 2
 Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun. Untuk menguji klaim ini, 100 pemilik mobil yang dipilih secara acak diminta untuk mencatat jarak yang mereka tempuh. Jika sampel acak menunjukkan rata-rata 23.500 kilometer dan standar deviasi 3900 kilometer. (Kerjakan menggunakan library seperti referensi pada modul).
  
  ![image](https://user-images.githubusercontent.com/79054230/170882037-0484b29f-3dbf-4665-928f-f92d0053e2cd.png)
 
-	Apakah Anda setuju dengan klaim tersebut? 
+a. Apakah Anda setuju dengan klaim tersebut? 
 Ya. karena
 H0 Rata-rata >= 20000
 Lalu, sampel diperoleh rata2 23500 (ini >=20000).
@@ -29,17 +32,17 @@ Dengan standar deviasi 3900, maka juga 23500 masih lebih kecil  24141.49
 
 Maka, secara statistik saya setuju dengan klaim tersebut
 
-	Jelaskan maksud dari output yang dihasilkan! 
+b. Jelaskan maksud dari output yang dihasilkan! 
 - didapat nilai z = 8.9744, dan p-value = 1
 - H1 (hipotesis alternatif)nya ialah mean lebih kecil dari 20000, yakni nilai rata-rata klaim. (menentang H0).
 - kita dapat yakin 95% bahwa nilai estimasi rata-ratanya ialah di bawah 24141.49
 
-	Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
+c. Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
 Karena p-value = 1, maka tidak mungkin terjadi H1 (mean lebih keci dari 20000). Dapat disimpulkan bahwa rata-rata lebih dari 20000, sesuai dengan klaim (hipotesis) awal
 
 Nomor 3
 
-	H0 dan H1
+a. H0 dan H1
 H0: μ_1=μ_2 nilai rata-rata bandung dan bali sama (tidak ada perbedaan).  
 H1: μ_1  !=μ_2  nilai rata-rata bandung dan bali tidak sama
 
@@ -49,20 +52,20 @@ t=((X ̅_1-X ̅_2 )-(μ_1-μ_2))/√(〖 S〗_p^2 (1/n_1 +1/n_2 )  )
 
 ![image](https://user-images.githubusercontent.com/79054230/170882049-15e05b30-f948-436a-bc22-f827ca9e8a2a.png)
 
-	Hitung Sampel statistik
+b. Hitung Sampel statistik
 -0.03911 <= μ_1-μ_2 <= 1.739
 
-	Lakukan Uji Statistik
+c. Lakukan Uji Statistik
 T = 1.9267
 
-	Nilai Kritikal
+d. Nilai Kritikal
 Nilai kritikal dengan df = 2, α= 0.05 adalah -2.919986 hingga 2.919986
 Nilai kritikal dengan df = 44, α= 0.05 adalah -1.6807 hingga 1.6807
 
-	Keputusan
+e. Keputusan
 Tolak H0 pada α=0.05
 
-	Kesimpulan
+f. Kesimpulan
 Terdapat bukti bahwa ditemukan perbedaan pada nilai mean
  
 Nomor 4
@@ -109,7 +112,8 @@ Visualisasi menggunakan ggboxplot
   ![image](https://user-images.githubusercontent.com/79054230/170882146-1424af2e-0e69-4bbf-bbaa-d6136869351b.png)
 
 
-d.	Uji tukey
+d. Uji tukey
+
 ![image](https://user-images.githubusercontent.com/79054230/170882158-fbf601ba-3329-4123-9123-5b0e34e21d43.png)
 ![image](https://user-images.githubusercontent.com/79054230/170882164-c343372f-a8d6-4087-acc9-5d46e5387327.png)
 
